@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:latest
 MAINTAINER name at sdlc
 RUN yum -y install httpd
 COPY index.html /var/www/html/
